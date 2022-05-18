@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
+				sh 'python3 -c 'print("hola")'
             }
         }
     }
